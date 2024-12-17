@@ -1,0 +1,404 @@
+body {
+  background-image: url;
+  background-color: rgb(14, 32, 40);
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.nav-one {
+  display: flex;
+  justify-content: space-between;
+  position: fixed; /* Fige la nav-bar */
+  top: 0; /* Positionne en haut de la page */
+  left: 0;
+  width: 100%; /* Prend toute la largeur */
+  background-color: #020000; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 10px 0; /* Espacement vertical */
+  z-index: 1000; /* Assure que la nav-bar soit au-dessus des autres éléments */
+  box-shadow: 0 0 10px rgb(16, 238, 230); /* Ajoute une ombre à la nav-bar */
+  font-family: "Open Sans", sans-serif;
+}
+.nav {
+  margin-left: 50px;
+}
+
+.nav-bar {
+  display: flex;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+}
+.home {
+  background-color: rgb(245, 236, 236);
+}
+.home-me {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-top: 230px;
+  font-weight: normal;
+  color: rgb(16, 238, 230);
+  margin: 0 500px;
+  padding-bottom: 10px;
+}
+
+.home-name {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 220px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.frontend {
+  margin-bottom: 0;
+}
+.name {
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+  border: 2.5px solid;
+  width: auto;
+  align-items: center;
+  margin: 0px 300px;
+  border-radius: 15px;
+}
+
+.about {
+  text-align: center;
+  font-size: 32px;
+  border: 0.5px solid rgb(61, 128, 132);
+  margin: 0 520px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.about-container {
+  padding-top: 100px;
+}
+.about-container p {
+  text-align: center;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 100px;
+  gap: 3rem;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  padding-top: 50px;
+
+  margin: 0px 40px;
+}
+.img_profile {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+.description-m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  padding: 0px 150px 50px 150px;
+  font-size: 24px;
+}
+.name-work h3 {
+  text-align: center;
+  font-size: 32px;
+  border: 0.5px solid rgb(61, 128, 132);
+  margin: 0 520px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.t-work {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+.Work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 0px 100px;
+}
+.come-see {
+  font-size: 16px;
+}
+div h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.Work div {
+  border: 1px solid rgb(24, 108, 114);
+  padding: 80px 65px;
+  background-color: rgb(14, 32, 40);
+  height: auto;
+  width: 200px;
+}
+.Resume {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.Resume h2 {
+  text-align: center;
+  font-size: 32px;
+  border: 0.5px solid rgb(26, 102, 107);
+  margin: 0 220px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+.Resume p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.container {
+  display: flex;
+  padding-left: 200px;
+  align-items: center;
+  justify-content: space-around;
+}
+.education h3 {
+  font-size: 32px;
+}
+.Experience h3 {
+  font-size: 32px;
+}
+.education ul li {
+  font-size: 24px;
+}
+.Experience ul li {
+  font-size: 24px;
+}
+.contact h3 {
+  text-align: center;
+  font-size: 32px;
+  border: 0.5px solid rgb(16, 90, 95);
+  margin: 0px 460px;
+
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+.contact-under {
+  text-align: center;
+  font-size: 1em;
+}
+.contactez {
+  text-align: center;
+  padding-top: 50px;
+}
+.contact {
+  padding-top: 60px;
+}
+.linkedin h5 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.linkedin p {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+.email1 {
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s;
+}
+.email1:hover {
+  color: rgb(16, 238, 230);
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.4s;
+}
+ul li a:hover {
+  color: rgb(16, 238, 230);
+}
+.phone h5 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.phone p {
+  margin-top: 1px;
+  font-size: 1.3em;
+}
+
+.Residence h5 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.Residence p {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+.formulaire {
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.full-name {
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+}
+.acces {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 30px 80px;
+}
+.email {
+  width: 50%;
+  height: 40px;
+  font-size: 18px;
+}
+.objet input {
+  width: 99.35%;
+  height: 40px;
+  font-size: 18px;
+}
+.objet {
+  margin: 0px 80px;
+}
+
+.message {
+  margin-top: 30px;
+  margin-left: 80px;
+  width: 86.8%;
+  height: 12rem;
+  font-size: 18px;
+}
+button {
+  padding: 15px;
+  width: 100px;
+  border-radius: none;
+  color: rgb(16, 238, 230);
+  border: 1px solid rgb(16, 238, 230);
+  cursor: pointer;
+  font-weight: 500;
+  background-color: rgb(12, 29, 37);
+  transition: background-color 0.4s;
+}
+button:hover {
+  background-color: rgb(16, 238, 230);
+  color: black;
+}
+.button-send {
+  text-align: right;
+  margin-right: 78px;
+  margin-top: 20px;
+}
+section {
+  background-color: rgb(14, 32, 40);
+  width: 100%;
+  height: 100%;
+}
+.bg-work {
+  background-color: rgb(12, 29, 37);
+}
+.bg-name {
+  background-color: rgb(12, 29, 37);
+}
+.bg-Contact {
+  background-color: rgb(12, 29, 37);
+}
+
+.know-more {
+  text-align: center;
+  margin-right: 78px;
+  margin-top: 20px;
+  margin: 15px 550px;
+  padding: 10px 0;
+  border: 1px solid rgb(21, 180, 175);
+  cursor: pointer;
+  font-weight: 500;
+  background-color: rgb(21, 180, 175);
+  text-transform: uppercase;
+}
+.more {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
+form {
+  margin-bottom: 0px;
+}
+
+.work-container {
+  padding-bottom: 100px;
+}
+input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(16, 90, 95);
+}
+input::placeholder {
+  color: rgb(16, 90, 95);
+}
+input:focus {
+  outline: none;
+}
+textarea {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(16, 90, 95);
+}
+textarea::placeholder {
+  color: rgb(16, 90, 95);
+}
+textarea:focus {
+  outline: none;
+}
+
+audio {
+  width: 400px;
+  height: 400px;
+}
+
+video {
+  width: 400px;
+  height: 400px;
+}
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+  padding: 50px 0px;
+}
